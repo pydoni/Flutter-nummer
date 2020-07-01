@@ -1,0 +1,32 @@
+name: nummer
+description: A new Flutter project.
+
+version: 2.0.0+2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sailor: ^0.7.0
+  cupertino_icons: ^0.1.2
+  shared_preferences:
+  fluttertoast: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_tts:
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - Assets/Images/
+
+  fonts:
+    - family: balsamiq
+      fonts:
+        - asset: Assets/Fonts/BalsamiqSans-Regular.ttf
